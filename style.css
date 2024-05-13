@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar {
+    
+    background-color: rgb(226, 221, 221);
+    /* width: 150px; */
+    font-family: "Fira Sans", sans-serif;
+    height: 100vh;
+    padding: 0px 10px;
+    transition: transform ease-in 0.4s;
+}
+
+.sidebar nav {
+    padding: 20px 21px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 30px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    margin-left:35px ;
+    margin-top: 20px;
+}
+.humburger {
+    display: flex;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    cursor: pointer;
+}
+.hum{
+    margin-left: 10px;
+}
+.cross {
+    margin-left: 100px;
+}
+.container {
+    display: flex;
+}
+.infoContainer {
+    /* background-color: rgb(181, 19, 202); */
+    height: 45vw;
+    width: 80vw;
+    margin: 45px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Source Code Pro", monospace;
+}
+.hello {
+    font-size: 3em;
+}
+.name {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+}
+.about {
+    font-size: 23px;
+}
+.aboutMore {
+    font-size: 15px;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 20px;
+}
+.buttons {
+    margin-top: 30px;
+}
+.buttons button {
+    padding: 12px;
+    border-radius: 28px;
+    background-color: #0898ff;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.buttons button:hover {
+    background-color: #fff;
+    border: 1px solid #0898ff;
+    color: #0898ff;
+}
+.devPic img {
+    width: 27vw;
+    height: 45vw;
+}
+.contactForm {
+    font-family: "Fira Sans", sans-serif;
+    padding: 30px;
+}
+.contactForm h1 {
+    font-family: "Source Code Pro", monospace;
+    /* text-align: center; */
+}
+.contactForm form div {
+    padding: 2px 0px;
+    margin-top: 20px;
+
+}
+#emailHelp {
+    font-size: 12px;
+    color: #5a5a5a;
+    margin: 0px 5px;
+}
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+}
+.mb-3 label {
+    font-size: 2vw;
+    margin-bottom: 3px;
+}
+#clientEmail,
+#clientPhone,
+#name {
+    width: 38vw;
+    height: 3vw;
+    border-radius: 3px;
+    font-family: "Fira Sans", sans-serif;
+    border: 1px solid #777;
+    padding-left: 3px;
+}
+.btn-btn-sm {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+.blogInfo {
+    margin: 20px;
+
+}
+.blogInfo h1 {
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.blogItem {
+    margin: 20px 0px;
+    font-family: "Fira Sans", sans-serif;
+    padding: 10px 0px;
+}
+.blogItem p {
+    font-family: "Source Code Pro", monospace;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.8)
+}
+#newbtn {
+    margin-top: -20px;
+    font-size: 14px;
+}
+.aboutContainer {
+    font-family: sans-serif;
+    margin: 15px;
+}
+.aboutContainer h1 {
+    font-size: 2em;
+    margin: 10px 0px;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+.aboutContainer p {
+    font-family: "Source Code Pro", monospace;
+    letter-spacing: -1px;
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px;
+}
+.skillsContainer {
+    font-family: sans-serif;
+    margin: 15px;
+}
+.skillsContainer h1 {
+    font-size: 2em;
+    margin: 10px 0px;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+.skillsContainer {
+    margin-top: 40px;
+}
+.skillsItem {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+    margin: 20px;
+}
+.skill {
+    width: 300px;
+    height: 10px;
+    background-color: red;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+.hundred {
+    width: 300px;
+    height: 10px;
+    background-color: rgb(7, 196, 0);
+}
+.s5 {
+    width: 200px;
+    height: 10px;
+    background-color: rgb(28, 0, 128);
+}
+.f5 {
+    width: 150px;
+    height: 10px;
+    background-color: rgb(204, 0, 255);
+}
+.z0 {
+    width: 25px;
+    height: 10px;
+    background-color: red;
+}
+.sidebarGo{
+    position: absolute;
+    transform: translate(-147px, 10px);
+}
+@media (max-width:1000px) {
+    /* .sidebar{
+        position: absolute;
+        transform: translate(-147px, 10px);
+    } */
+}
+@media (max-width:700px) {
+    .main {
+        margin-top: 100px;
+        margin-left: 15px;
+    }
+    .sidebar{
+        position: absolute;
+    }
+    .main .hello {
+        word-spacing: -30px;
+        line-height: 100px;
+        font-size: 3em;
+        margin-bottom: -10px;
+    }
+
+}
+@media (max-width:375px){
+    .main{
+        margin-top: 180px;
+    }
+    .cross{
+        margin-left: 111px;
+    }
+    .hum{
+        margin-left: 3px;
+    }
+    .blogInfo{
+        margin-top: -140px;
+    }
+    .aboutContainer{
+        margin-top: -140px;
+    }
+    .contactForm{
+        margin-top: -140px;
+    }
+    .contactForm label{
+        font-size: 14px;
+    }
+    .contactForm input{
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+    .hello{
+        font-size: 10px;
+    }
+}
